@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>This is a test!</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>
+        We are using Node.js <span id="node-version"></span>,
+        and Electron <span id="electron-version"></span>.
+    </p>
+    <button id="ping-button">Let's ping!</button>
+    <p id="pong-display"></p>
+    <a href="../index/index.html"><button>Get back to index</button></a>
+    <button id="switch-button">Get back to index with backend window function</button>
+    <script src="./test.js"></script>
+</body>
+</html>
